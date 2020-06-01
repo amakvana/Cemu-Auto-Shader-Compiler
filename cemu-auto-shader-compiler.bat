@@ -33,13 +33,17 @@ echo Creating cemu-shader-watcher ...
             echo if not "%%wTitle%%"=="%%wTitle:OpenGL=%%" (
                 echo echo Shaders compiled ...
                 echo goto cemuPostCompiled              
-            echo ^)         
+            echo ^)
+            echo if not "%%wTitle%%"=="%%wTitle:Vulkan=%%" (
+                echo echo Shaders compiled ...
+                echo goto cemuPostCompiled              
+            echo ^)          
         echo ^)
         echo ping 127.0.0.1 -n 1 -w 500 ^>nul 2^>^&1
     echo ^) 
     echo goto cemuWatcherLoop
     echo :cemuPostCompiled
-    echo echo Closing Cemu after 5 minutes to allow some pipeline cache to build ...
+    echo echo Closing Cemu after 60 seconds to allow some pipeline cache to build ...
     echo timeout /t 60 /nobreak ^>nul 2^>^&1
     echo taskkill /im "cemu.exe" /f ^>nul 2^>^&1
     echo endlocal
