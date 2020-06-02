@@ -52,8 +52,7 @@ echo Creating cemu-shader-watcher ...
 
 REM delete old shader cache folders
 echo Deleting old Cemu ShaderCache folders ...
-rmdir /s /q "%cemuPath%\shaderCache\driver" >nul 2>&1
-rmdir /s /q "%cemuPath%\shaderCache\precompiled" >nul 2>&1
+rmdir /s /q "%cemuPath%\shaderCache\driver\nvidia" >nul 2>&1
 rmdir /s /q "%localappdata%\NVIDIA\GLCache" >nul 2>&1
 
 REM get all .rpx files inside %gamesPath%
