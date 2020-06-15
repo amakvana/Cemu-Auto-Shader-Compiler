@@ -1,4 +1,4 @@
-# Cemu-Auto-Shader-Compiler
+# Cemu Auto Shader Compiler
 Autocompile Cemu Shaders on the fly
 
 Drop the cemu-auto-shader-compiler.bat file directly into your CEMU folder, alongside cemu.exe.
