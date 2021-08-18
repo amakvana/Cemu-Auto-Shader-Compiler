@@ -1,3 +1,8 @@
+![GitHub Release](https://img.shields.io/github/v/release/amakvana/Cemu-Auto-Shader-Compiler?style=for-the-badge&logo=appveyor)
+![GitHub license](https://img.shields.io/github/license/amakvana/Cemu-Auto-Shader-Compiler?style=for-the-badge&logo=appveyor)
+![GitHub repo size](https://img.shields.io/github/repo-size/amakvana/Cemu-Auto-Shader-Compiler?style=for-the-badge&logo=appveyor)
+![GitHub all releases](https://img.shields.io/github/downloads/amakvana/Cemu-Auto-Shader-Compiler/total?style=for-the-badge&logo=appveyor)
+
 # Cemu Auto Shader Compiler
 Autocompile Cemu Shaders on the fly!
 
