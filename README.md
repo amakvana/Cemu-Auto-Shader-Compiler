@@ -10,11 +10,11 @@ Autocompile Cemu Shaders on the fly!
 https://github.com/amakvana/Cemu-Auto-Shader-Compiler/releases/latest
 
 ## Installation
-* Download the [cemu-auto-shader-compiler](https://github.com/amakvana/Cemu-Auto-Shader-Compiler/releases/latest) script
-* Place it in the same folder your cemu.exe resides 
+1. Download the [cemu-auto-shader-compiler](https://github.com/amakvana/Cemu-Auto-Shader-Compiler/releases/latest) script
+2. Place it in the same folder your cemu.exe resides 
 
 ## Usage
-* Run the cemu-auto-shader-compiler script
-* Enter the path where your Wii U Games reside (.rpx files)
-* Press Enter and the script will automagically compile all of your games shaders and basic pipeline caches 
-* Upon completion, feedback is provided
+1. Run the cemu-auto-shader-compiler script
+2. Enter the path where your Wii U Games reside (.rpx files)
+3. Press Enter and the script will automagically compile all of your games shaders and basic pipeline caches 
+4. Upon completion, feedback is provided
