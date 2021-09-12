@@ -1,7 +1,7 @@
 @echo off 
 pushd "%~dp0"
 set "cemuPath=%~dp0"
-set /p gamesPath= Enter full path to Cemu games directory (excluding trailing backslash) then press Enter: 
+set /p "gamesPath=Enter full path to Cemu games directory (excluding trailing backslash) then press Enter: "
 
 cls
 echo Games Path: %gamesPath%
