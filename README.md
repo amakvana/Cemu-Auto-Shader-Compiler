@@ -10,7 +10,7 @@ Autocompile Cemu Shaders on the fly!
 https://github.com/amakvana/Cemu-Auto-Shader-Compiler/releases/latest
 
 ## Installation
-* Download the [cemu-auto-shader-compiler](https://github.com/amakvana/Cemu-Auto-Shader-Compiler/releases/download/v1.0/cemu-auto-shader-compiler.bat) script
+* Download the [cemu-auto-shader-compiler](https://github.com/amakvana/Cemu-Auto-Shader-Compiler/releases/latest) script
 * Place it in the same folder your cemu.exe resides 
 
 ## Usage
